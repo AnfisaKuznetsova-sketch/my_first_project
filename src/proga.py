@@ -104,7 +104,8 @@ box = scrolledtext.ScrolledText(
     fg="white",
     font=("Consolas", 11)
 )
-box.pack(fill=tk.BOTH, expand=True, padx=6, pady=(6, 0))
+box.pack(fill=tk.BOTH, expand=True,
+         padx=6, pady=(6, 0))
 
 entry = tk.Entry(root, font=("Consolas", 12))
 entry.pack(fill=tk.X, padx=6, pady=6)
