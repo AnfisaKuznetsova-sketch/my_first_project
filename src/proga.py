@@ -5,7 +5,6 @@ from tkinter import scrolledtext
 
 running = True
 
-
 def split_args(line):
     parts = []
     word = ""
@@ -92,7 +91,7 @@ def show(text):
 
 root = tk.Tk()
 
-user = os.environ.get('USER', 'user')
+user = os.environ.get('USERNAME', 'username')
 host = socket.gethostname()
 root.title(f"Эмулятор - [{user}@{host}]")
 root.geometry("700x450")
