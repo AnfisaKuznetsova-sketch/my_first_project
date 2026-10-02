@@ -94,7 +94,7 @@ root = tk.Tk()
 user = os.environ.get('USERNAME', 'username')
 host = socket.gethostname()
 root.title(f"Эмулятор - [{user}@{host}]")
-root.geometry("700x450")
+root.geometry("700x600")
 
 box = scrolledtext.ScrolledText(
     root,
